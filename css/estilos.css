@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/*Estilos del menu*/
+.menu-nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.menu {
+    margin: 0 20px;
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.btn-menu {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-menu:hover {
+    color: aqua;
+}
+
+.activo {
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+/*Contenidos*/
+.portada {
+    max-width: 500px;
+}
+
+.publicidad img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+
+.bandeja {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.tarjeta {
+    text-align: center;
+    border: 2px solid rgba(4, 1, 1, 0.439);
+    padding: 10px;
+}
+
+/*Estilos del menu*/
+.pie {
+    background-color: brown;
+    color: chocolate;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/*Estilos de galeria*/
+.portada {
+    max-width: 500px;
+}
+
+.imagen img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 40%;
+}
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr ;
+    gap: 20px;
+}
+
+.imagen {
+    text-align: center;
+    border: 2px solid rgba(4, 1, 1, 0.439);
+    padding: 10px;
+}
