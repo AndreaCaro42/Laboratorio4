@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociales</title>
+    <title>Universo</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <header class="header-index">
     <nav class="menu-nav"> <img src="src/Img/logo.jpg" class="logo" alt="" >
         <ul class="menu">
             <li><a href="index.html" class="btn-menu">Inicio</a></li>
@@ -16,46 +17,40 @@
             <li><a href="contactos.html" class="btn-menu activo">Contactos</a></li>
         </ul>
     </nav>
+</header>   
     <hr>
-    <div class="contenido">
-        <section class="publicidad">
-            <img src="src/Img/publicidad.jpg" alt="">
-        </section>
-        <section class="bandeja">
-            <div class="tarjeta">
-                <h2>Chat GPT</h2>
-                <h3>¿Qué es ChatGPT?</h3>
-                <p>
-                    Es un modelo de lenguaje desarrollado por OpenAI que utiliza inteligencia artificial para entender y generar texto en lenguaje natural. Está diseñado para interactuar con los usuarios de manera conversacional, respondiendo preguntas, generando texto, asistiendo en tareas creativas, resolviendo problemas y proporcionando información sobre una amplia gama de temas.
-                </p>
-                <div>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <h2>Capacidades de ChatGPT</h2>
-                <h3>Conversacional</h3>
-                <p>
-                    Puede realizar una variedad de tareas, incluyendo responder preguntas, generar texto, ayudar en la redacción de artículos, asistir en tareas educativas, traducir idiomas, e incluso ofrecer recomendaciones personalizadas, todo en tiempo real.
-                </p>
-                <div>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <h2>Tecnologías Detrás</h2>
-                <h3>Arquitectura de ChatGPT</h3>
-                <p>
-                    Está basado en una arquitectura de red neuronal conocida como Transformer, entrenada con enormes cantidades de texto. Utiliza el aprendizaje automático para generar respuestas coherentes y contextuales a partir de las solicitudes de los usuarios.
-                </p>
-                <div>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-            </div>
-        </section>
+    <div class="container-form">
+        <div class="login">
+            <H3>FORMULARIOS</H3>
+            <form action="#" method="get" id="formulario1" name="formulario1">
+                     <label for="ident": >Identificacion:</label>
+                     <input type="number" name="indt" id="ident" value="" placeholder="numero de identificacion" required>
+                     <br>
+                     <label for="Nom">nombre </label>
+                     <input type="text" name="Nom" id="Nom" value="" placeholder="Nombre completo">
+                     <br>
+                     <label for="ema">Correo Electr&oacute;nico: </label>
+                     <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com">
+                     <br>
+                     <label for="clave">Contraseña:</label>
+                     <input type="password" name="clave" id="clave" value=""required minlength="8" maxlength="16">
+                     <hr>
+                     <span>Genero</span>
+                     <br>
+                     <div class="genero">
+                     <label for="m">Masculino</label>
+                     <input type="radio" name="gen" id="m">
+                    </div>
+                     <div class="genero">
+                        <label for="f">Femenino</label>
+                     <input type="radio" name="gen" id="f">
+                     </div>
+                     <div class="genero">
+                        <label for="o">Otros</label>
+                        <input type="radio" name="gen" id="o">
+                     </div>
+        
+         </div>
     </div>
     <hr>
     <footer>

@@ -13,6 +13,24 @@ hr {
 }
 
 /*Estilos del menu*/
+
+.header{
+    background-color: rgba(209, 29, 29, 0.5);
+    width: 100%;
+    height: 9em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.header-index{
+    background-color: rgba(141, 141, 141, 0.5);
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-content: center;
+}
 .menu-nav {
     height: 60px;
     display: flex;
@@ -20,31 +38,37 @@ hr {
 }
 
 .logo {
-    max-width: 70px;
+    max-width: 110px;
 }
 
 .menu {
+    text-align: center;
     margin: 0 20px;
     display: flex;
     list-style: none;
-    padding: 0 20px;
-    gap: 10px;
+    padding: 0 50px;
+    gap: 15px;
 }
 
 .btn-menu {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: rgb(252, 251, 251);
     padding: 5px;
     cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición */
 }
 
 .btn-menu:hover {
-    color: aqua;
+    color: rgb(177, 175, 174);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .activo {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 1px solid;
     border-radius: 5px;
@@ -55,11 +79,34 @@ hr {
     max-width: 500px;
 }
 
+.publicidad {
+    position: relative;
+    display: inline-block;
+    
+}
+
 .publicidad img {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     max-width: 100%;
-    width: 80%;
+    width: 150%;
+    height: 100%;
+}
+
+.imagen-title {
+    position: absolute;
+    top: 35%; /* Centrado vertical */
+    left: 20%; /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    color: rgb(194, 194, 194);
+    font-size: 100px;
+    font-weight: unset;
+    /*background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px 20px;
+    border-radius: 5px; /* Opcional */
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-table;
 }
 
 .bandeja {
@@ -107,4 +154,50 @@ hr {
     text-align: center;
     border: 2px solid rgba(4, 1, 1, 0.439);
     padding: 10px;
+}
+
+/*Estilos de videos*/
+.contenido-videos {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    gap: 20px;
+}
+
+/*Estilos de noticias*/
+.contenido-noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    min-height: 10px;
+}
+
+.imagen-noticia {
+    margin: 0 auto;
+    width: 50px;
+    min-height: min-content;
+}
+
+/*Estilos Contactos*/
+.container-form {
+    text-align: left;
+    margin: auto;
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px;
+    background-color: #ffffff00; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px; /* Esquinas redondeadas */
+  }
+
+.login {
+    border: 1px solid black;
+    height: 640px;
+    background-image: url('lufy.gif');
+    color: rgb(44, 44, 44);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
 }
